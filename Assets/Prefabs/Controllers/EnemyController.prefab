@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4668790879528228006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2193364100713822264}
+  - component: {fileID: 6357163019187018987}
+  m_Layer: 0
+  m_Name: EnemyController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2193364100713822264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4668790879528228006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6357163019187018987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4668790879528228006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 337f4f161d1a8a24e9e81ba558885107, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManager: {fileID: 223640510341666158, guid: 1091d5138104d3f48aec4f9070e2db1a,
+    type: 3}
+  mobCard1: {fileID: 11400000, guid: b6600f2a574473f4fa745149afcf2499, type: 2}
+  mobCard2: {fileID: 11400000, guid: 4d06623d1c9b5b740812e683a34a59f4, type: 2}
+  mobCard3: {fileID: 11400000, guid: 5ff9c0f3b21356b4388e3f4907f3674c, type: 2}
+  mobCard4: {fileID: 11400000, guid: 0a1032450086fed4b8dee51b3bcde2f5, type: 2}
+  mobCard5: {fileID: 11400000, guid: c91d6b3653b3348429101bb808977db2, type: 2}
+  EnemySlot1: {fileID: 4544452554300070034, guid: c579bae32fbf7274394dbf07a0fb6f53,
+    type: 3}
+  EnemySlot2: {fileID: 2983757159150822220, guid: ece4148135cc92040b13c84d0a2bf980,
+    type: 3}
+  EnemySlot3: {fileID: 1526923030843505342, guid: 5344b995c50ba4e49aa84c838276548d,
+    type: 3}
+  EnemySlot4: {fileID: 4666620409822216607, guid: d11f9dd97aa89bf40be378ef222fe640,
+    type: 3}
+  EnemySlot5: {fileID: 9145148933680835353, guid: 5109c10b417a1c24595d8e7b030ade2d,
+    type: 3}

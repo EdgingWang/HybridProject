@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4145166672393490907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4145166672393490905}
+  - component: {fileID: 4145166672393490906}
+  m_Layer: 0
+  m_Name: ProgressController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4145166672393490905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145166672393490907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4145166672393490906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4145166672393490907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc0a1a1e95f96f43bb214f998a20c89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerXPPerLevel: 100
+  enemyXPPerLevel: 100
+  playerXPPerWonBattle: 25
+  playerXPExerciseMultiplyer: 2
+  enemyXPPerBattle: 37
+  exerciseBuffLength: 3
+  allyCard1: {fileID: 11400000, guid: 2ed8d5f45b9141e4eafde147fe16ff86, type: 2}
+  allyCard2: {fileID: 11400000, guid: 176c56051a98dd84688665358c2889a4, type: 2}
+  allyCard3: {fileID: 11400000, guid: d6f5c06f6d0689444ab0fff4f0d10e19, type: 2}
+  allyCard4: {fileID: 11400000, guid: 0acbca1c9d45d9e478580a95d99803ab, type: 2}
+  allyCard5: {fileID: 11400000, guid: fcb4c3579232d6f49a53bc58fc2e5e11, type: 2}
+  enemyCard1: {fileID: 11400000, guid: b6600f2a574473f4fa745149afcf2499, type: 2}
+  enemyCard2: {fileID: 11400000, guid: 4d06623d1c9b5b740812e683a34a59f4, type: 2}
+  enemyCard3: {fileID: 11400000, guid: 5ff9c0f3b21356b4388e3f4907f3674c, type: 2}
+  enemyCard4: {fileID: 11400000, guid: 0a1032450086fed4b8dee51b3bcde2f5, type: 2}
+  enemyCard5: {fileID: 11400000, guid: c91d6b3653b3348429101bb808977db2, type: 2}

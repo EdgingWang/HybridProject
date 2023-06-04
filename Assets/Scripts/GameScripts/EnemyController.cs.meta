@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 337f4f161d1a8a24e9e81ba558885107
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GameManager: {fileID: 7786286918509589450, guid: 1091d5138104d3f48aec4f9070e2db1a,
+      type: 3}
+  - mobCard1: {fileID: 11400000, guid: b6600f2a574473f4fa745149afcf2499, type: 2}
+  - mobCard2: {fileID: 11400000, guid: 4d06623d1c9b5b740812e683a34a59f4, type: 2}
+  - mobCard3: {fileID: 11400000, guid: 5ff9c0f3b21356b4388e3f4907f3674c, type: 2}
+  - mobCard4: {fileID: 11400000, guid: 0a1032450086fed4b8dee51b3bcde2f5, type: 2}
+  - mobCard5: {fileID: 11400000, guid: c91d6b3653b3348429101bb808977db2, type: 2}
+  - EnemySlot1: {fileID: 4544452554300070034, guid: c579bae32fbf7274394dbf07a0fb6f53,
+      type: 3}
+  - EnemySlot2: {fileID: 2983757159150822220, guid: ece4148135cc92040b13c84d0a2bf980,
+      type: 3}
+  - EnemySlot3: {fileID: 1526923030843505342, guid: 5344b995c50ba4e49aa84c838276548d,
+      type: 3}
+  - EnemySlot4: {fileID: 4666620409822216607, guid: d11f9dd97aa89bf40be378ef222fe640,
+      type: 3}
+  - EnemySlot5: {fileID: 9145148933680835353, guid: 5109c10b417a1c24595d8e7b030ade2d,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b696114c2c251b1428e8d1ab83cf97e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mobCard: {instanceID: 0}
+  - nameText: {instanceID: 0}
+  - descriptionText: {instanceID: 0}
+  - artworkImage: {instanceID: 0}
+  - frameFrame: {instanceID: 0}
+  - healthText: {instanceID: 0}
+  - costText: {instanceID: 0}
+  - atkText: {instanceID: 0}
+  - allyCardFrame: {fileID: 21300000, guid: 1b93efbf78a68ae4689cee01602dd4b0, type: 3}
+  - enemyCardFrame: {fileID: 21300000, guid: 03db732f0aa910b4ca5ba100135cfe09, type: 3}
+  - spellCardFrame: {fileID: 21300000, guid: 3fba545721d051640bb7fa3022664352, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
